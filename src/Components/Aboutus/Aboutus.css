@@ -1,0 +1,24 @@
+.title {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  color: #000000;
+}
+.title_name{
+    color:orange
+}
+.descriptions{
+    width: 30%;
+}
+.aboutDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.backgroundImage{
+width: 156px;
+height: 185px;
+background: #FFDB78;
+border-radius: 183px 183px 0px 0px;
+}

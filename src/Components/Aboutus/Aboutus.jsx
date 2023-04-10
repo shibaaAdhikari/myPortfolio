@@ -1,16 +1,30 @@
-import React from 'react'
-// import Navbar from '../Navbar/Navbar'
+import React from "react";
+import "./Aboutus.css";
+import Profile from "../../Assests/profile.png";
+import Button from "../Button/Button";
 
 const Aboutus = () => {
   return (
-    <div>
-        {/* <Navbar/> */}
-        <div>
-            <p>Hello! I am</p>
-            <span>Shibaa</span>
-        </div>
+    <div className="aboutDiv">
+      <div>
+        <p className="title">
+          {" "}
+          Hello ! I am <br />
+          <span className="title_name">Shibaa</span>
+        </p>
+        <p className="descriptions">
+          Greetings to all! I am excited to be a member of the Optimum Futurist
+          team. My goal is to pursue a career in software engineering, and
+          outside of work, I enjoy traveling, watching movies, and exploring the
+          mysteries of the universe.
+        </p>
+<Button text="Hire Me"></Button>
+      </div>
+      <div className="backgroundImage">
+        <img src={Profile} alt="Logo" className="navbar-logo" />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Aboutus
+export default Aboutus;
