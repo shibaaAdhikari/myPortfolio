@@ -1,15 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import Button from './Components/Button/Button';
-import Cards from './Components/Cards/Cards';
-// import ImageI from "../public/Assests/react.png"
-import Navbar from './Pages/Navbar/Navbar';
+import { BrowserRouter,Routes,Route} from 'react-router-dom';
+import Home from './Pages/Home/Home';
 
 function App() {
   return (
-    <div className="App">  
-    <Navbar/>
-    </div>
+   <BrowserRouter>
+   <Routes>
+   <Route path='/' element={<Home/>}/>
+   </Routes>
+   </BrowserRouter>
   );
 }
 
