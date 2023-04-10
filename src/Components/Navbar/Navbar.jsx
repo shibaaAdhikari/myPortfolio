@@ -2,20 +2,20 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Button from "../Button/Button";
 import "./Navbar.css";
-import Logo from "../../Assests/logo.png";
+import logoI from "../../Assests/logoI.png"
 const Navbar = () => {
   return (
     <>
       <div className="navbar-main">
-        <img src={Logo} alt="Logo" className="navbar-logo" />
+        <img src={logoI} alt="Logo" className="navbar-logo" />
 
         <nav className="navbar">
           <ul >
             <li>
-              <Link className="navbar-title">Home</Link>
+              <Link to="/" className="navbar-title">Home</Link>
             </li>
             <li>
-              <Link className="navbar-title">About us</Link>
+              <Link to="/Aboutus" className="navbar-title">About us</Link>
             </li>
            
             <li>
@@ -30,7 +30,7 @@ const Navbar = () => {
           </ul>
 
           <div className="navbar-button">
-            <Button text="Signin"></Button>
+            <Button text="Contact us"></Button>
           </div>
         </nav>
       </div>
