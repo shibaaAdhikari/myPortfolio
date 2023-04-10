@@ -1,0 +1,12 @@
+.button{
+    background: linear-gradient(180deg, #FABF12 0%, #FB992D 100%);
+
+    /* color: white; */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; 
+    border-radius: 50px; 
+}
+.button:hover{
+    box-shadow: 0px 10px 50px rgba(251, 153, 45, 0.4);   
+}
