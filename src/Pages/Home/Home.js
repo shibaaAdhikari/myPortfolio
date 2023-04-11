@@ -3,7 +3,7 @@ import Navbar from "../../Components/Navbar/Navbar";
 import "./Home.css"
 import Aboutus from "../../Components/Aboutus/Aboutus";
 import Services from "../../Components/Services/Services";
-
+import ServiceCards from "../../Components/ServicesCards/ServiceCards";
 const Home = () => {
   return (
 
@@ -13,6 +13,7 @@ const Home = () => {
       <Navbar />
       <Aboutus/>
       <Services/>
+      <ServiceCards/>
     </div>
     </>
    
