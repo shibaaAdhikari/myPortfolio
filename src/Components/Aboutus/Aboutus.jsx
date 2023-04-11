@@ -3,7 +3,8 @@ import "./Aboutus.css";
 import Profile from "../../Assests/profile.png";
 import Button from "../Button/Button";
 // import ProfileCards from "../ProfileCards/ProfileCards";
-
+import UI from "../../Assests/developer.png"
+import Trophy from "../../Assests/trophy.jpg"
 const Aboutus = () => {
   return (
     <div className="aboutDiv" id="aboutus">
@@ -23,9 +24,22 @@ const Aboutus = () => {
       <div className="right_div">
       
         <div className="backgroundImage">
+          <div className="backgroundImge2"></div>
           <img src={Profile} alt="Logo" className="backgroudImage_logo" />
           <div className="backgroundButton">
-           <p>Hello! how may i help you?</p>
+            <div className="backgroundCard">
+           
+           <img src={UI} alt="ui" className="topImage" />
+           <p >Developer</p>
+            </div>
+           
+          </div>
+          <div className="backgroundButton2">
+          <div className="backgroundCard">
+           
+           <img src={Trophy} alt="ui" className="topImage" />
+           <p >Digital Exhibition winner 2022</p>
+            </div>
           </div>
         </div>     
       </div>

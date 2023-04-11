@@ -14,8 +14,9 @@ const Home = () => {
       <div className="main-div">
       <Navbar />
       <Aboutus/>
-      <Services/>
+     
       </div>  
+      <Services/>
       <ServiceCards/>
       <div className="exceptionalWork">
       <ExceptionalWorks/>
