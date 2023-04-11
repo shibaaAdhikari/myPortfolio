@@ -3,6 +3,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
   /* margin-bottom: 5rem; */
   /* background-color: rgba(114, 113, 79, 0.288); */
 }

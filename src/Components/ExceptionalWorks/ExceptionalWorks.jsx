@@ -1,8 +1,9 @@
 import React from "react";
 import "./ExceptionalWorks.css";
-
-import imageI from "../../Assests/design.png";
-import imageII from "../../Assests/developer.png";
+import WorkI from "../../Assests/workI.png";
+import WorkII from "../../Assests/workII.png";
+import WorkIII from "../../Assests/workIII.png";
+import workIV from "../../Assests/WorkIV.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
@@ -22,14 +23,18 @@ const ExceptionalWorks = () => {
             onSwiper={(swiper) => console.log(swiper)}
           >
             <SwiperSlide>
-                <img src={imageI} alt="images"/>
+              <img src={WorkI} alt="images" />
             </SwiperSlide>
             <SwiperSlide>
-            <img src={imageII} alt="images"/>
+              <img src={WorkII} alt="images" />
             </SwiperSlide>
-            <SwiperSlide>Slide 3</SwiperSlide>
-            <SwiperSlide>Slide 4</SwiperSlide>
-            ...
+            <SwiperSlide>
+              <img src={WorkIII} alt="images" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={workIV} alt="images" />
+            </SwiperSlide>
+            ........
           </Swiper>
         </div>
       </div>
