@@ -1,0 +1,36 @@
+.navbar-logo{
+width: 130px;
+
+}
+.navbar{
+    display: flex;
+   
+    /* justify-content: space-evenly; */
+   
+}
+.navbar-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-title {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 27px;
+  color: #000000;
+  text-decoration: none;
+  padding-left: 20px;
+}
+.navbar-title:hover{
+    color:orange;
+}
+.navbar-button{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
