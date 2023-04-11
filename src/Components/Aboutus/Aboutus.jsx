@@ -2,11 +2,12 @@ import React from "react";
 import "./Aboutus.css";
 import Profile from "../../Assests/profile.png";
 import Button from "../Button/Button";
+// import ProfileCards from "../ProfileCards/ProfileCards";
 
 const Aboutus = () => {
   return (
-    <div className="aboutDiv">
-      <div>
+    <div className="aboutDiv" id="aboutus">
+      <div className="left_div">
         <p className="title">
           {" "}
           Hello ! I am <br />
@@ -18,10 +19,16 @@ const Aboutus = () => {
           outside of work, I enjoy traveling, watching movies, and exploring the
           mysteries of the universe.
         </p>
-<Button text="Hire Me"></Button>
+        <Button text="Hire Me"></Button>
       </div>
-      <div className="backgroundImage">
-        <img src={Profile} alt="Logo" className="navbar-logo" />
+      <div className="right_div">
+      
+        <div className="backgroundImage">
+          <img src={Profile} alt="Logo" className="backgroudImage_logo" />
+          {/* <ProfileCards/> */}
+          
+        </div>
+       
       </div>
     </div>
   );

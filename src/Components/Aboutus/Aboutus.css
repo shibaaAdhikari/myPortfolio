@@ -5,20 +5,73 @@
   font-size: 40px;
   color: #000000;
 }
-.title_name{
-    color:orange
+.title_name {
+  color: orange;
 }
-.descriptions{
-    width: 30%;
+.descriptions {
+  width: 15rem;
+  text-align: justify;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  /* background-color: aqua; */
 }
-.aboutDiv{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.aboutDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15vw;
+  /* flex-wrap: wrap; */
+  /* background-color: darkolivegreen; */
 }
-.backgroundImage{
-width: 156px;
-height: 185px;
-background: #FFDB78;
-border-radius: 183px 183px 0px 0px;
+
+.backgroundImage {
+  width: 156px;
+  height: 185px;
+  background: #ffdb78;
+  border-radius: 183px 183px 0px 0px;
+  position: relative;
+  /* order: 0; */
+}
+.backgroudImage_logo {
+  position: absolute;
+  height: 150px;
+  top: 15px;
+}
+.left_div {
+  /* order: 1; */
+}
+.right_div {
+  /* background-color: aqua; */
+  height: clamp(190px, 60vw, 300px);
+  width: clamp(160px, 40vw, 300px);
+  display: grid;
+  place-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .left_div {
+    order: 1;
+    width: 100vw;
+  }
+  .aboutDiv {
+    flex-wrap: wrap;
+  }
+  .backgroundImage {
+    order: 0;
+  }
+  .descriptions {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 900px) {
+  .aboutDiv {
+    padding: 0 5vw;
+  }
+  .left_div {
+    width: 50vw;
+    max-width: 900px;
+  }
+  .descriptions {
+    width: 100%;
+  }
 }
