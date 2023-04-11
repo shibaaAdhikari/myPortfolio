@@ -22,7 +22,7 @@
     top:10px;
   }
   
-/* .title {
+.cards_title {
   font-family: "Noto Sans";
   font-style: normal;
   font-weight: 600;
@@ -32,17 +32,18 @@
   position: absolute;
   top: 13rem;
   left: 7rem;
-} */
+} 
 
 
-/* .descriptions {
+.cards_descriptions {
   font-family: "Noto Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   text-align: center;
-  top: 15rem;
-  left: 7rem;
-  width: 50%;
+  top: 14em;
+  left:3rem;
+  width: 80%;
+  position: absolute;
 
-} */
+} 

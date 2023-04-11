@@ -9,8 +9,8 @@ const Cards = ({imageSrc, title ,descriptions}) => {
           <div >
           <img src={imageSrc} alt={""} className="image" />
           </div>
-          <div className="title">{title}</div>
-          <div className="descriptions">{descriptions}</div>
+          <div className="cards_title">{title}</div>
+          <div className="cards_descriptions">{descriptions}</div>
         </div>
       </div>
     </>
