@@ -9,7 +9,6 @@ const Aboutus = () => {
     <div className="aboutDiv" id="aboutus">
       <div className="left_div">
         <p className="title">
-          {" "}
           Hello ! I am <br />
           <span className="title_name">Shibaa</span>
         </p>
