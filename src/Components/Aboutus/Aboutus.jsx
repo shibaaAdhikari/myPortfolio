@@ -25,7 +25,7 @@ const Aboutus = () => {
         <div className="backgroundImage">
           <img src={Profile} alt="Logo" className="backgroudImage_logo" />
           <div className="backgroundButton">
-           <p>Developer</p>
+           <p>Hello! how may i help you?</p>
           </div>
         </div>     
       </div>
