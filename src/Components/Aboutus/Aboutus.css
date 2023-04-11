@@ -37,17 +37,24 @@
   height: 150px;
   top: 15px;
 }
-.left_div {
-  /* order: 1; */
-}
-.right_div {
-  /* background-color: aqua; */
-  height: clamp(190px, 60vw, 300px);
-  width: clamp(160px, 40vw, 300px);
-  display: grid;
-  place-items: center;
-}
 
+.backgroundButton{
+position: relative;
+  width: 150px;
+  height: 35px;
+  left: 6rem;
+  background: #FFFFFF;
+  box-shadow: 0px 35px 70px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+  }
+
+  .right_div {
+    /* background-color: aqua; */
+    height: clamp(190px, 60vw, 300px);
+    width: clamp(160px, 40vw, 300px);
+    display: grid;
+    place-items: center;
+  }
 @media screen and (max-width: 600px) {
   .left_div {
     order: 1;

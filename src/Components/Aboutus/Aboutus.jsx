@@ -25,10 +25,10 @@ const Aboutus = () => {
       
         <div className="backgroundImage">
           <img src={Profile} alt="Logo" className="backgroudImage_logo" />
-          {/* <ProfileCards/> */}
-          
-        </div>
-       
+          <div className="backgroundButton">
+           <p>Developer</p>
+          </div>
+        </div>     
       </div>
     </div>
   );
