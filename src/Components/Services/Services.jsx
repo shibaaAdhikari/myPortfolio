@@ -13,7 +13,7 @@ const Services = () => {
           quasi aliquam? Ex quaerat quia voluptates quis consequuntur, nesciunt
           dolores beatae doloribus!
         </p>
-        <Button text="Download Resume" className="services_download"></Button>
+        <Button text="Download Resume" ></Button>
       </div>
     </>
   );

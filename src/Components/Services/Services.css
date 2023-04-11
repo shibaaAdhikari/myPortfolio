@@ -3,7 +3,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 4rem;
+  /* margin-bottom: 5rem; */
+  /* background-color: rgba(114, 113, 79, 0.288); */
 }
 .services_title {
   /* display: flex; */
@@ -22,4 +23,5 @@
 .services_cards{
     display: flex;
 }
+
 

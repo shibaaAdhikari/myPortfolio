@@ -1,5 +1,10 @@
 .main-div{
     background-color: #fef8e6;
     width: 100%;
-    /* height: 100vh; */
+    height: 100vh;
+}
+.exceptionalWork{
+    background-color: #fef8e6;
+    width: 100%;
+    height: 100vh;
 }
