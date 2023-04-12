@@ -2,11 +2,14 @@
     text-align: center;
     padding-top: 3rem;
     margin-top: 2rem;
+  
 
 }
 .excep_p{
-margin-bottom: 10px;
+margin-bottom: 3rem;
 font-size: 25px;
+/* margin-top: 3rem; */
+
 }
 
 .excep_title{
@@ -14,4 +17,6 @@ font-size: 25px;
     font-weight: 700;
     color: orange;
 }
-
+.imageSize{
+    widith:20%;
+}
