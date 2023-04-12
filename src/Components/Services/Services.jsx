@@ -9,9 +9,8 @@ const Services = () => {
         <p className="services_descriptiions">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ipsum
           quasi aliquam? Ex quaerat quia voluptates quis consequuntur, nesciunt
-          dolores beatae doloribus! heloo hi how are you
+          dolores beatae doloribus! 
         </p>
-
         <a href="/shibaa.pdf"  download>
           <Button text="Download Resume" />
         </a>
