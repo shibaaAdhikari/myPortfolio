@@ -1,0 +1,11 @@
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 4rem  4rem ;
+}
+p{
+    margin-bottom: 2rem;
+}
+.copyright{
+    text-align: center;
+}
