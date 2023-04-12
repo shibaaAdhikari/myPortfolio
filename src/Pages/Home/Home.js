@@ -6,8 +6,6 @@ import Aboutus from "../../Components/Aboutus/Aboutus";
 
 const Home = () => {
   return (
-
-
     <>
      <div className="main-div">
       <Navbar />
