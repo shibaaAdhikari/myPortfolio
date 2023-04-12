@@ -1,5 +1,5 @@
 .baseCard {
-  width: 353px;
+  width: 300px;
   height: 396px;
   background: #ffffff;
   box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.1);
@@ -10,7 +10,7 @@
 }
 
 .baseCard:hover {
-  box-shadow: 0px 35px 65px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 35px 65px rgba(0, 0, 0, 0.274);
 }
 
 .image {

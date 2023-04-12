@@ -10,8 +10,9 @@ const ServiceCards = () => {
     <>
       <div className="service_cards">
         <Cards  imageSrc={UI}  title="UI/UX" descriptions="UI/UX is very impoertant in the aspects of designing"/>
-        <Cards imageSrc={Design} title="Design" />
-        <Cards imageSrc={Developer} title="Developer"/>
+        <Cards imageSrc={Design} title="Design" descriptions="Lorem ipsum dolor, sit amet consectetur adipisicing elit. " />
+        <Cards imageSrc={Developer} title="Developer" descriptions="Lorem ipsum dolor, sit amet consectetur adipisicing elit. "/>
+        
       </div>
     </>
   );

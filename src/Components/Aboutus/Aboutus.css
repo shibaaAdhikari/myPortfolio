@@ -7,6 +7,7 @@
 }
 .title_name {
   color: orange;
+  margin-bottom: 3rem;
 }
 .descriptions {
   /* width: 15rem; */
@@ -26,36 +27,66 @@
 }
 
 .backgroundImage {
-  width: 156px;
-  height: 185px;
+  width: 256px;
+  height: 400px;
   background: #ffdb78;
   border-radius: 183px 183px 0px 0px;
   position: relative;
   /* order: 0; */
 }
+
 .backgroudImage_logo {
   position: absolute;
-  height: 150px;
-  top: 15px;
+  height: 400px;
+  width: 250px;
+  /* top: 15px; */
 }
 
 .backgroundButton {
   position: relative;
-  width: 150px;
-  height: 35px;
-  left: 6rem;
-  background: #ffffff;
+  width: 211px;
+  height: 77px;
+  left: 10rem;
+  background: #f5f7f5;
   box-shadow: 0px 35px 70px rgba(0, 0, 0, 0.1);
   border-radius: 25px;
 }
-
+.topImage{
+  width:30%;
+ 
+}
+.backgroundCard{
+  position: relative;
+  bottom: 1rem;
+  top:0.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.backgroundTitle{
+  position: relative;
+  left: 4rem;
+  top:3rem;
+}
+.backgroundButton2{
+  position: relative;
+  width: 211px;
+  height: 77px;
+  top:18rem;
+  right: 7rem;
+  background: #f5f7f5;
+  box-shadow: 0px 35px 70px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+}
 .right_div {
   /* background-color: aqua; */
-  height: clamp(190px, 60vw, 300px);
+  height: clamp(500px, 60vw, 300px);
   width: clamp(160px, 40vw, 300px);
   display: grid;
   place-items: center;
+  
 }
+
 @media screen and (max-width: 600px) {
   .left_div {
     order: 1;
@@ -80,6 +111,8 @@
     max-width: 900px;
   }
   .descriptions {
-    width: 100%;
+    width: 75%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 }
