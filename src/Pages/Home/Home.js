@@ -5,6 +5,7 @@ import Aboutus from "../../Components/Aboutus/Aboutus";
 import Services from "../../Components/Services/Services";
 import ServiceCards from "../../Components/ServicesCards/ServiceCards";
 import ExceptionalWorks from "../../Components/ExceptionalWorks/ExceptionalWorks";
+import Footer from "../../Components/Footer/Footer"
 const Home = () => {
   return (
 
@@ -20,8 +21,9 @@ const Home = () => {
       <ServiceCards/>
       <div className="exceptionalWork">
       <ExceptionalWorks/>
+   
       </div>
-      
+      <Footer/>
     </div>
     </>
    
