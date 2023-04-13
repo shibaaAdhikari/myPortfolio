@@ -26,9 +26,8 @@ const ExceptionalWorks = () => {
             grabCursor={true}
             centeredSlides={true}
             slidesPerView={"2"}
-            // spaceBetween={60}
             coverflowEffect={{
-              rotate: 60,
+              rotate: 50,
               stretch: 0,
               depth: 50,
               modifier: 1,
@@ -37,18 +36,26 @@ const ExceptionalWorks = () => {
             pagination={true}
             modules={[EffectCoverflow, Pagination]}
             className="mySwiper"
+            breakpoints={{
+              // when window width is >= 640px
+              600: {
+             
+               slidesPerView: 1,
+
+              }
+            }}
           >
             <SwiperSlide>
-              <img src={WorkI} alt="images" />
+              <img src={WorkI} alt="images" className="swiper_Image" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={WorkII} alt="images" />
+              <img src={WorkII} alt="images"  className="swiper_Image"/>
             </SwiperSlide>
             <SwiperSlide>
-              <img src={WorkIII} alt="images" />
+              <img src={WorkIII} alt="images"  className="swiper_Image" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={workIV} alt="images" />
+              <img src={workIV} alt="images"  className="swiper_Image" />
             </SwiperSlide>
           </Swiper>
         </div>
