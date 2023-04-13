@@ -17,6 +17,19 @@ font-size: 25px;
     font-weight: 700;
     color: orange;
 }
-.imageSize{
-    widith:20%;
-}
+
+@media (max-width: 600px) {
+  .mySwiper{
+    /* width: 200px; */
+    width: 500px;
+  }
+
+  .swiper_Image{
+    width: 80%;
+  }
+  .exceptionalWork{
+    /* width: 100%; */
+    height: auto;
+  }
+    }
+  
