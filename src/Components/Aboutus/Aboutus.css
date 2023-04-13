@@ -8,12 +8,10 @@
 .title_name {
   color: orange;
   margin-bottom: 3rem;
-
 }
 .descriptions {
   text-align: justify;
   margin-bottom: 1rem;
-
 }
 .aboutDiv {
   display: flex;
@@ -50,28 +48,27 @@
   box-shadow: 0px 35px 70px rgba(0, 0, 0, 0.1);
   border-radius: 25px;
 }
-.topImage{
-  width:30%;
- 
+.topImage {
+  width: 30%;
 }
-.backgroundCard{
+.backgroundCard {
   position: relative;
   bottom: 1rem;
-  top:0.5rem;
+  top: 0.5rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.backgroundTitle{
+.backgroundTitle {
   position: relative;
   left: 4rem;
-  top:3rem;
+  top: 3rem;
 }
-.backgroundButton2{
+.backgroundButton2 {
   position: relative;
   width: 211px;
   height: 77px;
-  top:18rem;
+  top: 18rem;
   right: 7rem;
   background: #f5f7f5;
   box-shadow: 0px 35px 70px rgba(0, 0, 0, 0.1);
@@ -83,13 +80,15 @@
   width: clamp(160px, 40vw, 300px);
   display: grid;
   place-items: center;
-  
 }
 
 @media screen and (max-width: 600px) {
   .left_div {
     order: 1;
     width: 100vw;
+  }
+  .right_div{
+    height: clamp(300px, 60vw, 229px);
   }
   .aboutDiv {
     flex-wrap: wrap;
@@ -100,6 +99,60 @@
   .descriptions {
     width: 100%;
   }
+  .topImage {
+    width: 20%;
+    /* width:max-content; */
+  }
+  .backgroundCard {
+    position: relative;
+    bottom: 1rem;
+    top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* .backgroundButton {
+    position: relative;
+    width: 9.5rem;
+    height: 46px;
+    left: 9rem;
+  } */
+  .backgroundButton {
+    position: relative;
+    width: 47%;
+    height: 3rem;
+    left: 60%;
+  }
+  .backgroundButton2 {
+    position: relative;
+    width: 53%;
+    height: 3rem;
+    top: 7rem;
+    right: 3rem;
+  }
+  .about_parag{
+    font-size: x-small;
+  }
+  .backgroudImage_logo {
+    position: absolute;
+    height: 221px;
+    width: 191px;
+    top: 15px;
+  }
+  .backgroundImage {
+    width: 196px;
+    height: 236px;
+    background: #ffdb78;
+    border-radius: 183px 183px 0px 0px;
+    position: relative;
+  }
+  .title{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 30px;
+  }
+
+
 }
 @media screen and (min-width: 900px) {
   .aboutDiv {
