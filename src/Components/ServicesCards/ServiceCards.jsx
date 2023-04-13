@@ -1,7 +1,6 @@
 import React from "react";
 import Cards from "../Cards/Cards";
 import "./ServiceCards.css";
-// import UI from "../../Assests/UI.png"
 import CSS from "../../Assests/CSS.png"
 import Reactt from "../../Assests/react.png"
 import node from "../../Assests/node.png"
@@ -15,7 +14,6 @@ const ServiceCards = () => {
         <Cards imageSrc={CSS} title="CSS" descriptions="Lorem ipsum dolor, sit amet consectetur adipisicing elit."  className="cardsImage"/>
         <Cards imageSrc={Reactt} title="React" descriptions="Lorem ipsum dolor, sit amet consectetur adipisicing elit." className="cardsImage"/>
         <Cards imageSrc={node} title="Node.js" descriptions="Lorem ipsum dolor, sit amet consectetur adipisicing elit."className="cardsImage"/>
-        {/* <Cards imageSrc={node} title="Developer" descriptions="Lorem ipsum dolor, sit amet consectetur adipisicing elit."/> */}
         <Cards imageSrc={github} title="Github" descriptions="Lorem ipsum dolor, sit amet consectetur adipisicing elit."className="cardsImage"/>
       </div>
     </>

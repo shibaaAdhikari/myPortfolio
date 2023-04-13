@@ -15,6 +15,7 @@ const Footer = () => {
             <p className="footer_paragraph">Let's create something together</p>
            
           </div>
+
           <div className="contactForm">
             <p className="contact_title">Send Us Message</p>
             <InputField
