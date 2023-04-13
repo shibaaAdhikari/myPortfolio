@@ -8,13 +8,12 @@
 .title_name {
   color: orange;
   margin-bottom: 3rem;
+
 }
 .descriptions {
-  /* width: 15rem; */
   text-align: justify;
   margin-bottom: 1rem;
-  /* margin-top: 1rem; */
-  /* background-color: aqua; */
+
 }
 .aboutDiv {
   display: flex;

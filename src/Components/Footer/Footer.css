@@ -1,11 +1,59 @@
 .footer{
     display: flex;
     justify-content: space-evenly;
-    margin: 4rem  4rem ;
+    margin: 6rem  6rem ;
+   /* background-color: rgb(182, 182, 206) */
+   align-items: center;
+   
 }
-p{
-    margin-bottom: 2rem;
+/* p{
+    margin-bottom: rem;
+} */
+.contact_title{
+    font-size:xx-large;
+    text-align: center;
+    color: orange;
+    font-weight: 500;
+}
+.contact_left{
+      
+        display: flex;
+        flex-direction: column;
+        /* align-content: center; */
+        
+    
 }
 .copyright{
     text-align: center;
+    background: #ffdb78;
+    padding: 2rem;
+}
+.contactForm{
+    display: grid;
+    /* background-color: blanchedalmond; */
+    padding: 3rem 3rem;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+
+}
+.footer_title{
+font-size: xx-large;
+font-weight: 500;
+color: orange;
+}
+.footer_paragraph{
+    font-size: small;
+    margin-top: 1rem;
+}
+.contact_information{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: smaller
+    
+}
+.contact_textarea{
+    height: 10vh;
+    border-radius: 7px;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
 }

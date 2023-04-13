@@ -14,8 +14,8 @@ const Aboutus = () => {
           <span className="title_name">Shibaa</span>
         </p>
         <p className="descriptions">
-          Greetings to all! I am excited to be a member of the Optimum Futurist
-          team. My goal is to pursue a career in software engineering, and
+          Greetings to all! I am excited to be a member of the EnglightInfo.
+          My goal is to pursue a career in software engineering, and
           outside of work, I enjoy traveling, watching movies, and exploring the
           mysteries of the universe.
         </p>

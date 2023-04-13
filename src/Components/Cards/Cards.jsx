@@ -1,11 +1,11 @@
 import React from "react";
 import "./Cards.css";
 
-const Cards = ({imageSrc, title ,descriptions}) => {
+const Cards = ({imageSrc, title ,descriptions,className}) => {
   return (
     <>
       <div>
-        <div className="baseCard">
+        <div className={`baseCard ${className}`}>
           <div >
           <img src={imageSrc} alt={""} className="image" />
           </div>
