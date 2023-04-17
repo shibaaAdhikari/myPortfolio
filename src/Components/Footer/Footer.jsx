@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
-import InputField from "../ContactButton/Contact";
+// import InputField from "../Inputfield/Inputfield";
+import InputField from "../Inputfield/Inputfield"
 import Button from "../Button/Button"
 
 const Footer = () => {
@@ -17,6 +18,7 @@ const Footer = () => {
           </div>
 
           <div className="contactForm">
+            <form id="submitButton" action="mailto:shibaaadhikari0@gmail.com" method="POST">
             <p className="contact_title">Send Us Message</p>
             <InputField
               placeholder="Full Name"
@@ -36,9 +38,11 @@ const Footer = () => {
               name="email"
               
             />
-            {/* <p className="contact_information">Tell us more about your Project</p> */}
+            
             <textarea className="contact_textarea" placeholder="Tell us more about your Project" />
             <Button text="Send Message"/>
+            </form>
+       
           </div>
         </div>
 

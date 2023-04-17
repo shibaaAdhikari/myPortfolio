@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Contact.css"
+import "./Inputfield.css"
 
 const Contact = ({ label, type, name, value, onChange, placeholder}) => {
   return (
