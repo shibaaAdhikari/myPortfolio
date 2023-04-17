@@ -1,19 +1,20 @@
-.navbar-logo{
-width: 100px;
-margin-left: 2rem;
+.navbar-logo {
+  width: 100px;
+  margin-left: 2rem;
+}
 
+.navigation {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0.5rem 0rem;
+  color: black;
 }
-.navbar{
-    display: flex;
-    align-items: center;
-    height: 50px;
-   
-    /* justify-content: space-evenly; */
-   
-}
-.navbar-main{
-    display: flex;
-    justify-content: space-between;
+
+.navbar-main {
+  display: flex;
+  justify-content: space-between;
 }
 
 .navbar-title {
@@ -26,19 +27,82 @@ margin-left: 2rem;
   text-decoration: none;
   padding-left: 20px;
 }
-.navbar-title:hover{
-    color:orange;
+.navbar-title:hover {
+  color: orange;
 }
-.navbar-button{
-    margin-left: 20px;
+.navbar-button {
+  margin-left: 20px;
 }
-ul{
-    display: flex;
-    list-style: none;
+ul {
+  display: flex;
+
+  list-style: none;
+}
+.contact {
+  margin-right: 5rem;
+}
+.hamburger {
+  border: 0;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: orange;
+  cursor: pointer;
+  display: none;
+}
+.hamburger:hover {
+  background-color: rgb(195, 128, 4);
+}
+.mobile-navigation{
+display: none;
 }
 
-@media screen and (max-width:690px) {
-   .navbar{
+@media screen and (max-width: 600px) {
+  .contact {
     display: none;
-   } 
+  }
+  .hamburger {
+    display: block;
+    justify-content: flex-end;
+  }
+  .navigation-menu ul {
+    flex-direction: column;
+    gap: rem;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+    text-align: center;
+    gap: 0.4rem;
+  }
+  .navbar-title {
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: orange;
+    text-decoration: none;
+  }
+  .navbar-title:hover {
+    border-bottom: 2px solid orange;
+    width: 30%;
+  }
+  .navbar-logo {
+    display: none;
+  }
+  .hamburgerButton {
+    margin: 10px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+  }
+  .navigation{
+    display: none;
+  }
+  .navigation-menu{
+    /* background-color: aquamarine; */
+    background-color: black;
+    position: relative;
+  }
+  .navigation-menu.close{
+    display: none;
+  }
 }

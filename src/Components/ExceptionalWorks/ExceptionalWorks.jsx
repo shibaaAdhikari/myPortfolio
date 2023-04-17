@@ -27,7 +27,7 @@ const ExceptionalWorks = () => {
             centeredSlides={true}
             slidesPerView={"2"}
             coverflowEffect={{
-              rotate: 50,
+              rotate: 60,
               stretch: 0,
               depth: 50,
               modifier: 1,
@@ -40,7 +40,7 @@ const ExceptionalWorks = () => {
               // when window width is >= 640px
               600: {
              
-               slidesPerView: 1,
+               slidesPerView: 2,
 
               }
             }}
