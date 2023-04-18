@@ -1,5 +1,5 @@
 import React from "react";
-import "./ExceptionalWorks.css";
+import "./Projects.css";
 import WorkI from "../../Assests/expI.jpg";
 import WorkII from "../../Assests/workII.png";
 import WorkIII from "../../Assests/expII.jpg";
@@ -12,10 +12,10 @@ import "swiper/css/pagination";
 import { EffectCoverflow, Pagination } from "swiper";
 // import { useSwiperSlide } from "swiper/react";
 
-const ExceptionalWorks = () => {
+const ExceptionalWorks = ({projectRef}) => {
   return (
     <>
-      <div className="excep" id="Projects">
+      <div className="excep" id="Projects" ref={projectRef}>
         <div>
           <p className="excep_p">
             My <span className="excep_title">Exceptional</span> Works

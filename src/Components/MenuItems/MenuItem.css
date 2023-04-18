@@ -1,0 +1,10 @@
+.none {
+    text-decoration: none;
+    color: #302d2c;
+    cursor: pointer;
+  }
+  
+  .none:hover {
+    color: #e45c0e;
+    transition: 0.5s;
+  }

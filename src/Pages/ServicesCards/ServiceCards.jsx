@@ -1,5 +1,5 @@
 import React from "react";
-import Cards from "../Cards/Cards";
+import Cards from "../../Components/Cards/Cards";
 import "./ServiceCards.css";
 import CSS from "../../Assests/CSS.png"
 import Reactt from "../../Assests/react.png"

@@ -1,0 +1,47 @@
+ .menuList {
+  display: flex;
+  }
+  
+  /* @media screen and (max-width: 1060px) {
+    .menuList {
+      display: none;
+    }
+  } */
+  
+  /* .menuListMobile {
+    display: flex;
+    flex-direction: column;
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100vh;
+    padding: 40px;
+    background-color: #ffeee3;
+    color: rgb(0, 0, 0);
+    opacity: 0.9;
+    gap: 40px;
+    font-size: 1.3rem;
+  } */
+/*   
+  .closeButton {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 20px;
+    margin-right: 20px;
+  } */
+  
+  /* .closeButton:hover {
+    cursor: pointer;
+    color: #ca743a;
+  } */
+  
+  /* @media screen and (min-width: 1060px) {
+    .menuListMobile {
+      display: none;
+    }
+  } */
+   
+
