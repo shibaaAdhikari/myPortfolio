@@ -4,7 +4,7 @@ import Button from "../Button/Button";
 const Services = () => {
   return (
     <>
-      <div className="services">
+      <div className="services" id="Services">
         <p className="services_title">MY SERVICES</p>
         <p className="services_descriptiions">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ipsum

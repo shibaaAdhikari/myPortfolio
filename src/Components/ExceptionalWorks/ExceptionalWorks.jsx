@@ -15,7 +15,7 @@ import { EffectCoverflow, Pagination } from "swiper";
 const ExceptionalWorks = () => {
   return (
     <>
-      <div className="excep">
+      <div className="excep" id="Projects">
         <div>
           <p className="excep_p">
             My <span className="excep_title">Exceptional</span> Works

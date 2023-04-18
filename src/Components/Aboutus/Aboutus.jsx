@@ -2,15 +2,15 @@ import React from "react";
 import "./Aboutus.css";
 import Profile from "../../Assests/profile.png";
 import Button from "../Button/Button";
-import UI from "../../Assests/developer.png";
-import Trophy from "../../Assests/trophy.jpg";
-import { BsFacebook } from "react-icons/bs";
-import { AiFillLinkedin } from "react-icons/ai";
-import { AiFillGithub } from "react-icons/ai";
+// import UI from "../../Assests/developer.png";
+// import Trophy from "../../Assests/trophy.jpg";
+// import { BsFacebook } from "react-icons/bs";
+// import { AiFillLinkedin } from "react-icons/ai";
+// import { AiFillGithub } from "react-icons/ai";
 const Aboutus = () => {
   return (
     <>
-      <div className="AboutUs">
+      <div className="AboutUs" id="Aboutus">
         <div className="left_about">
           <p>Hello!</p>
           <p>I am <span >Shibaa</span></p> 
