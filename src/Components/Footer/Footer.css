@@ -75,5 +75,10 @@
     display:grid;  
     text-align: center;
    }
+   .footer_title {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #576CBC;
+  }
     }
   

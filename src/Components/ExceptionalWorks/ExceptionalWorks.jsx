@@ -21,7 +21,7 @@ const ExceptionalWorks = () => {
             My <span className="excep_title">Exceptional</span> Works
           </p>
 
-          <Swiper
+          {/* <Swiper
             effect={"coverflow"}
             grabCursor={true}
             centeredSlides={true}
@@ -43,7 +43,16 @@ const ExceptionalWorks = () => {
 
               }
             }}
-          >
+          > */}
+           <Swiper
+        slidesPerView={3}
+        spaceBetween={30}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination]}
+        className="mySwiper"
+      >
           {/* <Swiper
         slidesPerView={3}
         spaceBetween={60}
