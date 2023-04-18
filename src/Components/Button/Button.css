@@ -1,12 +1,14 @@
 .button{
-    background: linear-gradient(180deg, #FABF12 0%, #FB992D 100%);
-
+    background: linear-gradient(180deg, #0A4D68 0%, #088395 100%);
+   /* background:  linear-gradient(180deg, #98DFD6 0%, #FFDD83 100%); */
     /* color: white; */
+    /* background-color: #A5D7E8; */
     padding: 10px 15px;
     border: none;
     border-radius: 5px; 
     border-radius: 50px; 
+    cursor: pointer;
 }
 .button:hover{
-    box-shadow: 0px 10px 50px rgba(251, 153, 45, 0.4);   
+    box-shadow: 0px 10px 50px rgba(74, 83, 146, 0.633);   
 }

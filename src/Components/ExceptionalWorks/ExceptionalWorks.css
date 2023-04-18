@@ -7,15 +7,15 @@
 }
 .excep_p{
 margin-bottom: 3rem;
-font-size: 25px;
-/* margin-top: 3rem; */
+font-size: 30px;
+color: whitesmoke;
 
 }
 
 .excep_title{
-    font-size:30px;
+    font-size:35px;
     font-weight: 700;
-    color: orange;
+    color: #F0F0F0;
 }
 
 @media (max-width: 600px) {
@@ -33,3 +33,13 @@ font-size: 25px;
   }
     }
   
+    /* .imageSize{
+      width: 20%;
+    } */
+
+    @media (min-width: 900px) {
+      .excep{
+        height: auto;
+      }
+        }
+      

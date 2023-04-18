@@ -1,6 +1,6 @@
 .navbar-logo {
   width: 100px;
-  margin-left: 2rem;
+  margin-left: 13rem;
 }
 
 .navigation {
@@ -10,25 +10,31 @@
   position: relative;
   padding: 0.5rem 0rem;
   color: black;
+  /* color: #F0F0F0; */
+  margin-bottom: 20px;
+  margin-right: 107px;
 }
 
 .navbar-main {
   display: flex;
   justify-content: space-between;
+  padding: 1.5rem;
+  align-items: center;
 }
 
 .navbar-title {
   font-family: "Noto Sans";
   font-style: normal;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 25px;
   line-height: 27px;
-  color: #000000;
+  /* color: #000000; */
+  color: #F0F0F0; 
   text-decoration: none;
   padding-left: 20px;
 }
 .navbar-title:hover {
-  color: orange;
+  color: #A5D7E8;
 }
 .navbar-button {
   margin-left: 20px;
@@ -52,8 +58,17 @@ ul {
 .hamburger:hover {
   background-color: rgb(195, 128, 4);
 }
-.mobile-navigation{
+/* .mobile-navigation{
 display: none;
+} */
+/* ul{
+  display: none;
+}
+button.button.contact{
+  display: none;
+} */
+.mobile-navigation{
+  display: none;
 }
 
 @media screen and (max-width: 600px) {
@@ -64,9 +79,9 @@ display: none;
     display: block;
     justify-content: flex-end;
   }
-  .navigation-menu ul {
+  .navigation-menu.open ul{
     flex-direction: column;
-    gap: rem;
+    gap: 1rem;
     box-sizing: border-box;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
     border-radius: 10px;
@@ -98,7 +113,6 @@ display: none;
     display: none;
   }
   .navigation-menu{
-    /* background-color: aquamarine; */
     background-color: black;
     position: relative;
   }

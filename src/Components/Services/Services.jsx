@@ -12,7 +12,7 @@ const Services = () => {
           dolores beatae doloribus! 
         </p>
         <a href="/shibaa.pdf"  download>
-          <Button text="Download Resume" />
+          <Button text="Download Resume" className="downloadResume"/>
         </a>
       </div>
     </>

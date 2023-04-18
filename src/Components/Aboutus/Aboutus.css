@@ -1,170 +1,95 @@
-.title {
-  font-family: "Noto Sans";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 40px;
-  color: #000000;
-}
-.title_name {
-  color: orange;
-  margin-bottom: 3rem;
-}
-.descriptions {
-  text-align: justify;
-  margin-bottom: 1rem;
-}
-.aboutDiv {
+
+.AboutUs{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 15vw;
-  margin-bottom: 3rem;
-  /* flex-wrap: wrap; */
-  /* background-color: darkolivegreen; */
+ justify-content: space-evenly;
+ position: relative;
+
 }
 
-.backgroundImage {
-  width: 256px;
-  height: 400px;
-  background: #ffdb78;
-  border-radius: 183px 183px 0px 0px;
+.image-container {
+  border-radius: 50%;
   position: relative;
-  /* order: 0; */
 }
-
-.backgroudImage_logo {
+.profileImage{
   position: absolute;
-  height: 400px;
-  width: 250px;
-  /* top: 15px; */
+  background-color: #A5D7E8;
+  border-radius: 50%;
+  width: 25rem;
+  right: 160px;
+  top: 120px;
+ 
+}
+.profileImage:hover{
+  border: 2px solid #576CBC;
+  box-shadow: 0 0 10px #576CBC,
+              0 0 20px #576CBC,
+              0 0 30px #576CBC,
+              0 0 40px #576CBC,
+              0 0 50px #576CBC,
+              0 0 60px #576CBC;
+}
+.left_about{
+ 
+   color: #F0F0F0;
+   font-size: 4rem;
+   width: 60%;
+   margin:5rem;
+  }
+.right_about{
+  width: 40%;
+  text-align: center;
+}
+span {
+  color: #A5D7E8;
+  transition: color 1s ease-in-out;
 }
 
-.backgroundButton {
-  position: relative;
-  width: 211px;
-  height: 77px;
-  left: 10rem;
-  background: #f5f7f5;
-  box-shadow: 0px 35px 70px rgba(0, 0, 0, 0.1);
-  border-radius: 25px;
+span:hover {
+  color: #576CBC;
 }
-.topImage {
-  width: 30%;
+.aboutDescription{
+text-align: justify;
+
+width:100%;
+font-size: 2.5rem;
 }
-.backgroundCard {
-  position: relative;
-  bottom: 1rem;
-  top: 0.5rem;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.backgroundTitle {
-  position: relative;
-  left: 4rem;
-  top: 3rem;
-}
-.backgroundButton2 {
-  position: relative;
-  width: 211px;
-  height: 77px;
-  top: 18rem;
-  right: 7rem;
-  background: #f5f7f5;
-  box-shadow: 0px 35px 70px rgba(0, 0, 0, 0.1);
-  border-radius: 25px;
-}
-.right_div {
-  /* background-color: aqua; */
-  height: clamp(500px, 60vw, 300px);
-  width: clamp(160px, 40vw, 300px);
-  display: grid;
-  place-items: center;
+.hireme{
+  width: 10rem;
+  height: 4rem;
+ background-color: #A5D7E8;
 }
 
-@media screen and (max-width: 600px) {
-  .left_div {
-    order: 1;
-    width: 100vw;
-  }
-  .right_div{
-    height: clamp(300px, 60vw, 229px);
-  }
-  .aboutDiv {
-    flex-wrap: wrap;
-  }
-  .backgroundImage {
-    order: 0;
-  }
-  .descriptions {
-    width: 100%;
-  }
-  .topImage {
-    width: 20%;
-    /* width:max-content; */
-  }
-  .backgroundCard {
-    position: relative;
-    bottom: 1rem;
-    top: 0.5rem;
-    display: flex;
-    justify-content: center;
+@media screen and (max-width: 768px)  {
+  .AboutUs{
+    flex-direction: column;
     align-items: center;
   }
-  /* .backgroundButton {
-    position: relative;
-    width: 9.5rem;
-    height: 46px;
-    left: 9rem;
-  } */
-  .backgroundButton {
-    position: relative;
-    width: 47%;
-    height: 3rem;
-    left: 60%;
-  }
-  .backgroundButton2 {
-    position: relative;
-    width: 53%;
-    height: 3rem;
-    top: 7rem;
-    right: 3rem;
-  }
-  .about_parag{
-    font-size: x-small;
-  }
-  .backgroudImage_logo {
-    position: absolute;
-    height: 221px;
-    width: 191px;
-    top: 15px;
-  }
-  .backgroundImage {
-    width: 196px;
-    height: 236px;
-    background: #ffdb78;
-    border-radius: 183px 183px 0px 0px;
-    position: relative;
-  }
-  .title{
+  .left_about {
+    width: 80%;
+    margin: 2rem 0;
     text-align: center;
-    margin-bottom: 1rem;
-    font-size: 30px;
+    font-size: 2rem;
   }
-
-
-}
-@media screen and (min-width: 900px) {
-  .aboutDiv {
-    padding: 0 5vw;
+  .right_about {
+    width: 80%;
+    margin: 2rem 0;
+    text-align: center;
   }
-  .left_div {
-    width: 50vw;
-    max-width: 900px;
+  .profileImage{
+    width: 12rem;
+    position: static;  
   }
-  .descriptions {
-    width: 75%;
-    margin-top: 2rem;
+  .right_about {
+    order: 0;
+  }
+  .left_about {
+    order: 1;
+  }
+  .aboutDescription{
+    text-align: justify;
+    width:100%;
+    font-size: 1rem;
     margin-bottom: 2rem;
-  }
+    margin-top: 2rem;
+    }
 }

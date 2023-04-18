@@ -8,9 +8,9 @@ import { AiOutlineBars } from "react-icons/ai";
 const Navbar = () => {
   const [toggle, setToggle] = useState("close");
 
-  function onCLickhandler(){
-    toggle === "close" ? setToggle("open"):setToggle("close");
-    console.log(toggle)
+  function onCLickhandler() {
+    toggle === "close" ? setToggle("open") : setToggle("close");
+    console.log(toggle);
   }
 
   return (
@@ -49,11 +49,10 @@ const Navbar = () => {
             <Button text="Contact us" className="contact"></Button>
           </div>
         </nav>
-     
       </div>
 
-      <div className="{}">
-      <nav className="mobile-navigation">
+      <div className="mobileNav">
+        <nav className="mobile-navigation">
           <div className={`navigation-menu ${toggle}`}>
             <ul>
               <li>
@@ -84,15 +83,13 @@ const Navbar = () => {
             <Button text="Contact us" className="contact"></Button>
           </div>
 
-          <div className="hamburgerButton">
-          <button
-            className="hamburger"
-            onClick={onCLickhandler}
-          >
-            <AiOutlineBars />
-          </button>
-        </div>
+          
         </nav>
+        <div className="hamburgerButton">
+            <button className="hamburger" onClick={onCLickhandler}>
+              <AiOutlineBars />
+            </button>
+          </div>
       </div>
     </>
   );
