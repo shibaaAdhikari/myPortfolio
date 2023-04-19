@@ -1,0 +1,11 @@
+.menuItem {
+  /* color: aqua; */
+  /* border: solid 1px red; */
+  color: whitesmoke;
+  font-size: 24px;
+  margin-left: 3rem;
+}
+
+.menuItem:hover {
+  color: #a5d7e8;
+}

@@ -1,0 +1,49 @@
+.desktopMenu {
+  display: flex;
+  padding: 2rem;
+  background-color: #0b2447;
+  color: #f0f0f0;
+  /* justify-content: space-between; */
+  font-size: 20px;
+  margin-right: 2rem;
+}
+
+.menuListMobile {
+  display: none;
+  flex-direction: column;
+  z-index: 99;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100vh;
+  padding: 40px;
+  background-color: #064054c5;
+  color: rgb(8, 8, 8);
+  opacity: 0.9;
+  gap: 10px;
+  font-size: 4rem;
+}
+.closeButton {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.closeButton:hover {
+  cursor: pointer;
+  color: #181817;
+}
+
+@media screen and (max-width: 768px) {
+  .menuListMobile {
+    display: flex;
+  }
+  .desktopMenu {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+}

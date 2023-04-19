@@ -11,18 +11,16 @@
 .contact_title {
   font-size: xx-large;
   text-align: center;
-  color: orange;
+  color: #576CBC;
   font-weight: 500;
 }
-.contact_left {
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* align-content: center; */
-}
+
 .copyright {
   text-align: center;
-  background: #ffdb78;
+  background-color: #0B2447;
   padding: 2rem;
+  color: #F0f0f0;
+  font-size: 24px;
 }
 .contactForm {
   display: grid;
@@ -32,9 +30,9 @@
   border-radius: 50px;
 }
 .footer_title {
-  font-size: xx-large;
+  font-size: 4rem;
   font-weight: 500;
-  color: orange;
+  color: #576CBC;
 }
 .footer_paragraph {
   font-size: small;
@@ -50,6 +48,7 @@
   border-radius: 7px;
   margin-bottom: 1rem;
   margin-top: 1.5rem;
+  width: 315px;
 }
 /* 
 @media screen and(max-width:600px) {
@@ -76,5 +75,10 @@
     display:grid;  
     text-align: center;
    }
+   .footer_title {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #576CBC;
+  }
     }
   

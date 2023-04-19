@@ -5,15 +5,17 @@
   align-items: center;
   margin-top: 3rem;
   margin-bottom: 4rem;
+  font-size: 24px;
+  /* background-color: #F9F5EB; */
   /* margin-bottom: 5rem; */
   /* background-color: rgba(114, 113, 79, 0.288); */
 }
 .services_title {
   /* display: flex; */
-  color: orange;
-  font-size: 20px;
+  color: #576CBC;
+  font-size: 30px;
   font-weight: 600;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .services_descriptiions {
@@ -24,6 +26,10 @@
 }
 .services_cards{
     display: flex;
+}
+.downloadResume{
+  width: 192px;
+  height: 62px;
 }
 @media screen and (max-width: 600px) {
   .services_title {
