@@ -1,67 +1,79 @@
-
-.AboutUs{
+.AboutUs {
   display: flex;
- justify-content: space-evenly;
- position: relative;
- background-color: #0B2447;
-
+  justify-content: space-evenly;
+  position: relative;
+  background-color: #0b2447;
 }
 
 .image-container {
   border-radius: 50%;
   position: relative;
 }
-.profileImage{
+.profileImage {
   position: absolute;
-  background-color: #A5D7E8;
+  background-color: #a5d7e8;
   border-radius: 50%;
   width: 25rem;
   right: 160px;
   top: 120px;
- 
 }
-.profileImage:hover{
-  border: 2px solid #576CBC;
-  box-shadow: 0 0 10px #576CBC,
-              0 0 20px #576CBC,
-              0 0 30px #576CBC,
-              0 0 40px #576CBC,
-              0 0 50px #576CBC,
-              0 0 60px #576CBC;
+.profileImage:hover {
+  border: 2px solid #576cbc;
+  box-shadow: 0 0 10px #576cbc, 0 0 20px #576cbc, 0 0 30px #576cbc,
+    0 0 40px #576cbc, 0 0 50px #576cbc, 0 0 60px #576cbc;
 }
-.left_about{
- 
-   color: #F0F0F0;
-   font-size: 4rem;
-   width: 60%;
-   margin:5rem;
-  }
-.right_about{
+.left_about {
+  color: #f0f0f0;
+  font-size: 4rem;
+  width: 60%;
+  margin: 5rem;
+}
+.right_about {
   width: 40%;
   text-align: center;
 }
 span {
-  color: #A5D7E8;
+  color: #a5d7e8;
   transition: color 1s ease-in-out;
 }
 
 span:hover {
-  color: #576CBC;
+  color: #576cbc;
 }
-.aboutDescription{
-text-align: justify;
+.aboutDescription {
+  text-align: justify;
 
-width:100%;
-font-size: 2.5rem;
+  width: 100%;
+  font-size: 2.5rem;
 }
-.hireme{
+.hireme {
   width: 10rem;
   height: 4rem;
- background-color: #A5D7E8;
+  background-color: #a5d7e8;
 }
 
-@media screen and (max-width: 768px)  {
-  .AboutUs{
+@media screen and (max-width: 1355px) {
+  .profileImage {
+    width: 14rem;
+    position: static;
+    margin-top: 5rem;
+  }
+  .right_about {
+    width: 60%;
+  }
+  .left_about {
+    font-size: 2rem;
+    width: 100%;
+    margin: 2rem;
+  }
+  .aboutDescription {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .AboutUs {
     flex-direction: column;
     align-items: center;
   }
@@ -76,9 +88,9 @@ font-size: 2.5rem;
     margin: 2rem 0;
     text-align: center;
   }
-  .profileImage{
+  .profileImage {
     width: 12rem;
-    position: static;  
+    position: static;
   }
   .right_about {
     order: 0;
@@ -86,11 +98,11 @@ font-size: 2.5rem;
   .left_about {
     order: 1;
   }
-  .aboutDescription{
+  .aboutDescription {
     text-align: justify;
-    width:100%;
+    width: 100%;
     font-size: 1rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
-    }
+  }
 }

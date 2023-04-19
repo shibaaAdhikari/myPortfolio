@@ -1,5 +1,5 @@
 import React from "react";
-import Style from "./MenuItem.css";
+import "./MenuItem.css";
 
 const MenuItem = ({ title, reference, setShowMenu }) => {
   const scrollToRef = (ref) =>
@@ -8,7 +8,7 @@ const MenuItem = ({ title, reference, setShowMenu }) => {
   console.log(reference);
   return (
     <div
-      className={Style.none}
+      className="menuItem"
       onClick={() => {
         scrollToRef(reference);
         // setShowMenu(false);

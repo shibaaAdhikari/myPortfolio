@@ -1,16 +1,16 @@
 import React from "react";
 import "./Cards.css";
 
-const Cards = ({imageSrc, title ,descriptions,className}) => {
+const Cards = ({ items, className }) => {
   return (
     <>
       <div>
         <div className={`baseCard ${className}`}>
-          <div >
-          <img src={imageSrc} alt={""} className="image" />
+          <div>
+            <img src={items.image} alt={""} className="image" />
           </div>
-          <div className="cards_title">{title}</div>
-          <div className="cards_descriptions">{descriptions}</div>
+          <div className="cards_title">{items.title}</div>
+          <div className="cards_descriptions">{items.descriptions}</div>
         </div>
       </div>
     </>

@@ -1,0 +1,32 @@
+[
+    {
+        "image":"../Assests/html.png",
+        "title":"HTML",
+        "descriptions":"UI/UX is very impoertant in the aspects of designing"
+
+    },
+    {
+        "image":"",
+        "title":"CSS",
+        "descriptions":"UI/UX is very impoertant in the aspects of designing"
+
+    },
+    {
+        "image":"",
+        "title":"React",
+        "descriptions":"UI/UX is very impoertant in the aspects of designing"
+
+    },
+    {
+        "image":"",
+        "title":"Node",
+        "descriptions":"UI/UX is very impoertant in the aspects of designing"
+
+    },
+    {
+        "image":"",
+        "title":"github",
+        "descriptions":"UI/UX is very impoertant in the aspects of designing"
+
+    }
+]

@@ -37,8 +37,37 @@
   }
 } */
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+.bars {
+  display: flex;
+  justify-content: end;
+  color: white;
+  background-color: #0b2447;
+  /* display: none; */
+}
+.icon {
+  font-size: 40px;
+  margin-right: 15px;
+  margin-top: 11px;
+}
+
+.navbar-main {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0b2447;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .bars {
+    display: flex;
+  }
 }

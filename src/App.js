@@ -5,14 +5,17 @@ import Aboutus from "./Pages/Aboutus/Aboutus";
 import Services from "./Pages/Services/Services";
 import Projects from "./Pages/Projects/Projects";
 import Contact from "./Pages/Contact/Contact";
+import ServiceCards from "./Pages/ServicesCards/ServiceCards";
 import { useRef, useState } from "react";
-import { DesktopView } from "./Components/Menu/Menu";
+import { DesktopView, MobileView } from "./Components/Menu/Menu";
+import { FaBars } from "react-icons/fa";
 
 function App() {
   const homeRef = useRef(null);
   const aboutRef = useRef(null);
   const projectRef = useRef(null);
   const serviceRef = useRef(null);
+  const skillRef = useRef(null);
   const contactRef = useRef(null);
 
   // const refs = [homeRef, aboutRef, projectRef, serviceRef, contactRef];
@@ -25,6 +28,7 @@ function App() {
     { title: "Contact", ref: contactRef },
     { title: "Projects", ref: projectRef },
     { title: "Services", ref: serviceRef },
+    { title: "Skills", ref: skillRef },
   ];
 
   const [showMenu, setShowMenu] = useState(false);
@@ -32,16 +36,22 @@ function App() {
   return (
     <>
       <div className="navbar-main">
+        <div>logo</div>
         <div className="navigation">
           <DesktopView menuItems={menuItems} className="menu" />
-          {/* <div onClick={() => setShowMenu(true)}></div> */}
+          <div className="bars" onClick={() => setShowMenu(true)}>
+            <FaBars className="icon" />
+          </div>
         </div>
       </div>
-      {/* {showMenu && <MobileView {...refs} setShowMenu={setShowMenu} />} */}
+      {showMenu && (
+        <MobileView mobItems={menuItems} setShowMenu={setShowMenu} />
+      )}
 
       {/* <Home homeRef={homeRef} /> */}
       <Aboutus aboutRef={aboutRef} />
       <Services serviceRef={serviceRef} />
+      <ServiceCards skillRef={skillRef} />
       <Projects projectRef={projectRef} />
       <Contact contactRef={contactRef} />
     </>
