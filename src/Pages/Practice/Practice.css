@@ -1,0 +1,29 @@
+/* .maindiv {
+  width: 90%;
+  border: 1px solid black;
+  margin: 50px auto;
+  color: white;
+  display: grid;
+  grid-template-rows: repeat(2, 150px);
+  grid-template-columns: repeat(2, 1fr);
+  background-color: black;
+  grid-gap: 20px;
+}
+.div1 {
+  background-color: red;
+}
+.div2 {
+  background-color: blue;
+}
+.div3 {
+  background-color: cadetblue;
+}
+.div4 {
+  background-color: crimson;
+}
+.div5 {
+  background-color: darkmagenta;
+}
+.div6 {
+  background-color: fuchsia;
+} */

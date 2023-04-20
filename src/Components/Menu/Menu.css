@@ -37,6 +37,18 @@
   color: #181817;
 }
 
+@media screen and (max-width: 900px) {
+  .desktopMenu {
+    display: flex;
+    padding: 2rem;
+    background-color: #0b2447;
+    color: #f0f0f0;
+    /* justify-content: space-between; */
+    font-size: 20px;
+    margin-right: 2rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .menuListMobile {
     display: flex;
@@ -44,6 +56,4 @@
   .desktopMenu {
     display: none;
   }
-}
-@media screen and (max-width: 768px) {
 }

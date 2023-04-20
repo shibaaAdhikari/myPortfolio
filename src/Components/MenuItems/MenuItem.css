@@ -9,3 +9,11 @@
 .menuItem:hover {
   color: #a5d7e8;
 }
+
+@media screen and (max-width: 900px) {
+  .menuItem {
+    color: whitesmoke;
+    font-size: 18px;
+    margin-left: 2.5rem;
+  }
+}

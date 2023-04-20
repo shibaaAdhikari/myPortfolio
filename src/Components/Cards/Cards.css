@@ -1,6 +1,6 @@
 .baseCard {
-  width: 200px;
-  height: 200px;
+  width: 260px;
+  height: 260px;
   background: #ffffff;
   box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.1);
   border-radius: 30px;
@@ -11,17 +11,16 @@
   margin-bottom: 1rem;
 }
 
-
 .cards_title {
   font-family: "Noto Sans";
   font-style: normal;
   font-weight: 600;
-  font-size: 17px;
+  font-size: 20px;
   line-height: 30px;
   color: #000000;
   position: absolute;
-  top: 6rem;
-  left: 4.5rem;
+  top: 13rem;
+  left: 6.5rem;
 }
 
 .cards_descriptions {
@@ -43,15 +42,14 @@
 
 .image {
   position: absolute;
-  width: 90px;
-  height: 80px;
-  /* background-color: chartreuse; */
-  left: 50px;
-  top: 10px;
+  width: 155px;
+  height: 143px;
+  left: 56px;
+  top: 45px;
 }
 
 @media (max-width: 600px) {
-  .baseCard {
+  /* .baseCard {
     width: 140px;
     height: 176px;
     display: flex;
@@ -75,5 +73,5 @@
     width: 80%;
     position: absolute;
     text-align: justify;
-  }
+  } */
 }

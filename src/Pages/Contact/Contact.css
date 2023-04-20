@@ -11,16 +11,19 @@
 .contact_title {
   font-size: xx-large;
   text-align: center;
-  color: #576CBC;
+  color: #576cbc;
   font-weight: 500;
 }
 
 .copyright {
   text-align: center;
-  background-color: #0B2447;
+  /* background-color: #0b2447; */
   padding: 2rem;
-  color: #F0f0f0;
+  color: #f0f0f0;
   font-size: 24px;
+}
+.socialMedia {
+  background-color: #0b2447;
 }
 .contactForm {
   display: grid;
@@ -32,7 +35,7 @@
 .footer_title {
   font-size: 4rem;
   font-weight: 500;
-  color: #576CBC;
+  color: #576cbc;
 }
 .footer_paragraph {
   font-size: small;
@@ -65,20 +68,35 @@
       .contactForm {
         display: grid;
         /* background-color: blanchedalmond; */
-        /* padding: 3rem 3rem;
+/* padding: 3rem 3rem;
         box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
         border-radius: 50px; */
-      /* }
-} */ 
+/* }
+} */
+
+.socialMedia {
+  /* align-items: center; */
+  justify-content: center;
+}
+.icon {
+  text-align: center;
+}
+.icon1 {
+  font-size: 40px;
+  color: white;
+  margin-left: 10px;
+}
+.icon1:hover {
+  color: #576cbc;
+}
 @media (max-width: 600px) {
-  .footer{
-    display:grid;  
+  .footer {
+    display: grid;
     text-align: center;
-   }
-   .footer_title {
+  }
+  .footer_title {
     font-size: 2rem;
     font-weight: 500;
-    color: #576CBC;
+    color: #576cbc;
   }
-    }
-  
+}

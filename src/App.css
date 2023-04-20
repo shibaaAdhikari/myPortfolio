@@ -43,11 +43,11 @@
   box-sizing: border-box;
 }
 .bars {
-  display: flex;
+  /* display: flex;
   justify-content: end;
   color: white;
-  background-color: #0b2447;
-  /* display: none; */
+  background-color: #0b2447; */
+  display: none;
 }
 .icon {
   font-size: 40px;
@@ -69,5 +69,7 @@
 @media screen and (max-width: 768px) {
   .bars {
     display: flex;
+    color: white;
+    background-color: #0b2447;
   }
 }
