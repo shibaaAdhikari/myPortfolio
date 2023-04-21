@@ -4,6 +4,17 @@
   position: relative;
   background-color: #0b2447;
 }
+@keyframes upAndDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 
 .image-container {
   border-radius: 50%;
@@ -16,12 +27,16 @@
   width: 25rem;
   right: 160px;
   top: 120px;
-}
-.profileImage:hover {
+  animation-name: upAndDown;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-duration: 2s;
   border: 2px solid #576cbc;
   box-shadow: 0 0 10px #576cbc, 0 0 20px #576cbc, 0 0 30px #576cbc,
     0 0 40px #576cbc, 0 0 50px #576cbc, 0 0 60px #576cbc;
 }
+/* .profileImage:hover {
+} */
 .left_about {
   color: #f0f0f0;
   font-size: 4rem;
@@ -42,14 +57,40 @@ span:hover {
 }
 .aboutDescription {
   text-align: justify;
-
   width: 100%;
   font-size: 2rem;
+  animation-name: slideRight;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  /* animation-iteration-count: infinite; */
 }
 .hireme {
   width: 10rem;
   height: 4rem;
   background-color: #a5d7e8;
+}
+/* `` */
+@keyframes fadeOut {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(-100%);
+  }
+  25% {
+    transform: translateX(0);
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: translateX(50%);
+    transform: rotate(0deg);
+  }
 }
 
 @media screen and (max-width: 1355px) {

@@ -59,12 +59,20 @@
   display: flex;
   justify-content: space-between;
   background-color: #0b2447;
+  position: relative;
 }
 
 .navigation {
   display: flex;
   align-items: center;
 }
+/* .navbar_title {
+  color: white;
+  font-size: 600;
+  position: absolute;
+  top: 35px;
+  left: 15px;
+} */
 
 @media screen and (max-width: 768px) {
   .bars {

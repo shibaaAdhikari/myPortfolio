@@ -10,7 +10,12 @@
   flex-wrap: wrap;
   margin-bottom: 1rem;
 }
-
+.baseCard:hover {
+  animation-name: upAndDown;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  /* animation-iteration-count: infinite; */
+}
 .cards_title {
   font-family: "Noto Sans";
   font-style: normal;
@@ -46,6 +51,17 @@
   height: 143px;
   left: 56px;
   top: 45px;
+}
+@keyframes upAndDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 @media (max-width: 600px) {

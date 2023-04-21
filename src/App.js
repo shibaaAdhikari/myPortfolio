@@ -40,9 +40,7 @@ function App() {
   return (
     <>
       <div className="navbar-main">
-        <div>
-          <logoProfile />
-        </div>
+        <div className="navbar_title">Portfolio</div>
         <div className="navigation">
           <DesktopView menuItems={menuItems} className="menu" />
           <div className="bars" onClick={() => setShowMenu(true)}>
