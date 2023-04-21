@@ -14,7 +14,7 @@ const Aboutus = ({ aboutRef }) => {
         <div className="left_about">
           <p>Hello!</p>
           <p>
-            I am <span>Shibaa</span>
+            I am <span className="shiba">Shibaa</span>
           </p>
           <p className="aboutDescription">
             Greetings to all! I am excited to be a member of the EnglightInfo.

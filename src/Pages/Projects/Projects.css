@@ -1,46 +1,47 @@
-.excep{
-    text-align: center;
-    padding-top: 3rem;
-    margin-top: 2rem;
-    background-color: #0B2447;
-  
-
+.excep {
+  text-align: center;
+  padding-top: 3rem;
+  margin-top: 2rem;
+  background-color: #0b2447;
 }
-.excep_p{
-margin-bottom: 3rem;
-font-size: 30px;
-color: whitesmoke;
-
+.excep_p {
+  margin-bottom: 3rem;
+  font-size: 30px;
+  color: whitesmoke;
 }
 
-.excep_title{
-    font-size:35px;
-    font-weight: 700;
-    color: #F0F0F0;
+.excep_title {
+  font-size: 35px;
+  font-weight: 700;
+  color: #f0f0f0;
 }
-
-@media (max-width: 600px) {
-  .mySwiper{
-    /* width: 200px; */
+@media (max-width: 1586px) {
+  /* .mySwiper {
     width: 500px;
+  } */
+  .swiper_Image {
+    width: 440px;
+    border-radius: 33px;
+    margin-top: 25px;
   }
-
-  .swiper_Image{
-    width: 100%;
+}
+@media (max-width: 1152px) {
+  .swiper_Image {
+    width: 360px;
   }
-  .exceptionalWork{
-    /* width: 100%; */
-    height: auto;
+}
+@media (max-width: 948px) {
+  .swiper_Image {
+    width: 278px;
   }
-    }
-  
-    /* .imageSize{
-      width: 20%;
-    } */
-
-    @media (min-width: 900px) {
-      .excep{
-        height: auto;
-      }
-        }
-      
+}
+@media (max-width: 776px) {
+  .swiper_Image {
+    width: 229px;
+  }
+}
+@media (max-width: 776px) {
+  .swiper_Image {
+    width: 144px;
+  }
+}

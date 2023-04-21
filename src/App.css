@@ -43,11 +43,11 @@
   box-sizing: border-box;
 }
 .bars {
-  display: flex;
+  /* display: flex;
   justify-content: end;
   color: white;
-  background-color: #0b2447;
-  /* display: none; */
+  background-color: #0b2447; */
+  display: none;
 }
 .icon {
   font-size: 40px;
@@ -59,15 +59,25 @@
   display: flex;
   justify-content: space-between;
   background-color: #0b2447;
+  position: relative;
 }
 
 .navigation {
   display: flex;
   align-items: center;
 }
+/* .navbar_title {
+  color: white;
+  font-size: 600;
+  position: absolute;
+  top: 35px;
+  left: 15px;
+} */
 
 @media screen and (max-width: 768px) {
   .bars {
     display: flex;
+    color: white;
+    background-color: #0b2447;
   }
 }

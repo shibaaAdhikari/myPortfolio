@@ -6,9 +6,11 @@ import Services from "./Pages/Services/Services";
 import Projects from "./Pages/Projects/Projects";
 import Contact from "./Pages/Contact/Contact";
 import ServiceCards from "./Pages/ServicesCards/ServiceCards";
+// import Practice from "./Pages/Practice/Practice";
 import { useRef, useState } from "react";
 import { DesktopView, MobileView } from "./Components/Menu/Menu";
 import { FaBars } from "react-icons/fa";
+// import logoProfile from "../src/Assests/logoProfile.png";
 
 function App() {
   const homeRef = useRef(null);
@@ -17,6 +19,7 @@ function App() {
   const serviceRef = useRef(null);
   const skillRef = useRef(null);
   const contactRef = useRef(null);
+  const practiceRef = useRef(null);
 
   // const refs = [homeRef, aboutRef, projectRef, serviceRef, contactRef];
 
@@ -29,6 +32,7 @@ function App() {
     { title: "Projects", ref: projectRef },
     { title: "Services", ref: serviceRef },
     { title: "Skills", ref: skillRef },
+    { title: "practice", ref: practiceRef },
   ];
 
   const [showMenu, setShowMenu] = useState(false);
@@ -36,7 +40,7 @@ function App() {
   return (
     <>
       <div className="navbar-main">
-        <div>logo</div>
+        <div className="navbar_title">Portfolio</div>
         <div className="navigation">
           <DesktopView menuItems={menuItems} className="menu" />
           <div className="bars" onClick={() => setShowMenu(true)}>
@@ -54,6 +58,7 @@ function App() {
       <ServiceCards skillRef={skillRef} />
       <Projects projectRef={projectRef} />
       <Contact contactRef={contactRef} />
+      {/* <Practice practiceRef={practiceRef} /> */}
     </>
   );
 }

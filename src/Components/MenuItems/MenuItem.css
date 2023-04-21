@@ -4,8 +4,25 @@
   color: whitesmoke;
   font-size: 24px;
   margin-left: 3rem;
+  animation-name: fadeIn;
+  animation-duration: 3s;
 }
-
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .menuItem:hover {
   color: #a5d7e8;
+}
+
+@media screen and (max-width: 900px) {
+  .menuItem {
+    color: whitesmoke;
+    font-size: 18px;
+    margin-left: 2.5rem;
+  }
 }

@@ -8,11 +8,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
-
 import { EffectCoverflow, Pagination } from "swiper";
 // import { useSwiperSlide } from "swiper/react";
 
-const ExceptionalWorks = ({projectRef}) => {
+const ExceptionalWorks = ({ projectRef }) => {
   return (
     <>
       <div className="excep" id="Projects" ref={projectRef}>
@@ -44,16 +43,16 @@ const ExceptionalWorks = ({projectRef}) => {
               }
             }}
           > */}
-           <Swiper
-        slidesPerView={3}
-        spaceBetween={30}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[Pagination]}
-        className="mySwiper"
-      >
-          {/* <Swiper
+          <Swiper
+            slidesPerView={3}
+            spaceBetween={30}
+            pagination={{
+              clickable: true,
+            }}
+            modules={[Pagination]}
+            className="mySwiper"
+          >
+            {/* <Swiper
         slidesPerView={3}
         spaceBetween={60}
         centeredSlides={true}
@@ -67,13 +66,13 @@ const ExceptionalWorks = ({projectRef}) => {
               <img src={WorkI} alt="images" className="swiper_Image" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={WorkII} alt="images"  className="swiper_Image"/>
+              <img src={WorkII} alt="images" className="swiper_Image" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={WorkIII} alt="images"  className="swiper_Image" />
+              <img src={WorkIII} alt="images" className="swiper_Image" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={workIV} alt="images"  className="swiper_Image" />
+              <img src={workIV} alt="images" className="swiper_Image" />
             </SwiperSlide>
           </Swiper>
         </div>
